@@ -24,8 +24,6 @@ header {
     background: url('../images/mobile/image-header.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    /* box-sizing: border-box; */
-    /* height: 540px; */
     background-position: center bottom;
     text-align: center;
     margin-top: -90px;
@@ -74,12 +72,9 @@ nav {
     padding: 8vw 0 8vw 0;
     margin: 0 6%;
     align-items: center;
-    /* height: 305px; */
     justify-content: space-between;
     box-sizing: border-box;
-    /* padding-bottom: 70px; */
     height: 81vw;
-    /* height: fit-content; */
 }
 
 .nav.active {
@@ -116,14 +111,10 @@ nav {
 }
 
 .nav-item {
-    /* width: 43%; */
-    /* margin-bottom: 8px; */
     display: contents;
 }
 
 .nav-link {
-    /* height: max-content; */
-    /* width: 43%; */
     text-decoration: none;
     font-family: barlow;
     font-size: 5.3vw;
@@ -146,8 +137,6 @@ nav {
     text-transform: uppercase;
     font-size: 4vw;
     color: black;
-    /* min-height: 84px; */
-    /* align-content: center; */
 }
 
 .nav-link:active {
@@ -243,11 +232,9 @@ h2 {
 }
 
 .section-2 {
-        /* height: 600px; */
         padding-top: 99%;
         padding-bottom: 45px;
         text-align: center;
-        /* box-sizing: border-box; */
 }
 
 .cerry {
@@ -265,7 +252,6 @@ h2 {
 }
 
 h3 {
-    /* margin: 0; */
     font-family: 'Fraunces';
     font-size: 7.6vw;
     font-weight: 800;
@@ -341,7 +327,6 @@ footer {
     background-color: hsl(167deg 44% 70%);
     text-align: center;
     width: 100%;
-    /* box-sizing: border-box; */
     padding-top: 17%;
     padding-bottom: 8%;
 }
@@ -430,43 +415,31 @@ ul.footer-nav {
         left: auto;
         background-color: unset;
         padding: 0;
-        /* color: white; */
         width: 38%;
         justify-content: space-between;
         margin: 0;
         box-sizing: border-box;
-        /* padding-left: 8%; */
     }
 
     .nav-item {
-        /* align-items: center; */
         display: flex;
-        /* overflow: auto; */
         justify-content: center;
-        /* margin-left: 48px; */
-        /* padding: 25%; */
         width: 25%;
-        /* color: white; */
     }
 
     .nav-link:hover {
         color: white;
         background-color: rgb(255,255,255,0.2);
         font-size: 1vw;
-        /* padding: 0; */
     }
 
     .nav-link:active {
         color: white;
         background-color: rgb(255,255,255,0.2);
-        /* padding: 0; */
     }
 
     .nav-link {
         height: auto;
-        /* padding: 15px 5%; */
-        /* margin-left: 1.3vw; */
-        /* display: flex; */
         justify-content: center;
         width: 100%;
         color: white;
@@ -576,7 +549,6 @@ ul.footer-nav {
     }
 
     #clients {
-        /* padding-top: 9%; */
         padding: 9% 10.5% 1% 10.5%;
     }
 
@@ -587,7 +559,6 @@ ul.footer-nav {
 
     .clients {
         display: flex;
-        /* flex-grow: 1; */
     }
 
     .client {
