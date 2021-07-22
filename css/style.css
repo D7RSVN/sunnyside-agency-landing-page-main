@@ -452,7 +452,7 @@ ul.footer-nav {
     }
 
     header {
-        background: url('/images/desktop/image-header.jpg') no-repeat;
+        background: url('../images/desktop/image-header.jpg') no-repeat;
         background-position: center bottom;
         padding-top: 10%;
         padding-bottom: 22.5%;
